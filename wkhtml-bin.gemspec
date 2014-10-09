@@ -18,7 +18,10 @@ Gem::Specification.new do |spec|
     lib/wkhtmltopdf-binary.rb bin/wkhtmltopdf
     libexec/wkhtmltopdf-darwin-x86
     libexec/wkhtmltopdf-linux-amd64
-    libexec/wkhtmltopdf-linux-x86)
+    libexec/wkhtmltopdf-linux-x86
+    libexec/wkhtmltopdf-i386
+    libexec/wkhtmltopdf_linux_x64
+    )
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
